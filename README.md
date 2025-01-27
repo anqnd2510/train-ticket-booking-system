@@ -34,9 +34,22 @@ The "Train Ticket Booking" project is an online system that allows users to book
    ```bash
    git clone https://github.com/<username>/train-ticket-booking.git
 2. Install the dependencies:
-cd train-ticket-booking
-npm install
+   ```bash
+   cd train-ticket-booking
+   npm install
 3. Configure the database in the .env file:
-DATABASE_URL=mongodb://localhost:27017/train-ticket-booking
+   ```bash
+   DATABASE_URL=mongodb://localhost:27017/train-ticket-booking
 4. Run the application:
-npm start
+   ```bash
+   npm start
+4. Technologies Used
+   ```bash
+   Backend: Node.js, Express.js
+   Database: MongoDB
+   Real-time: Socket.IO for real-time booking updates.
+6. Future Improvements:
+   ```bash
+   Group ticket booking: Allow users to book multiple tickets at once.
+   Email/SMS ticket management: Send tickets via email or SMS to users after successful payment.
+   Add more payment methods: For example, VNPay, Momo, etc.
